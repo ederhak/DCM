@@ -9,12 +9,39 @@
     <sprite>sprites\sprite0_DinoSprites - mort</sprite>
     <sprite>sprites\sprite1_DinoSprites - tard</sprite>
     <sprite>sprites\sprite2_DinoSprites - vita</sprite>
-    <sprite>sprites\sprite4_dungeon tileset</sprite>
+    <sprite>sprites\sprite4_dungeon_tileset</sprite>
+    <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite28</sprite>
+    <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\sprite30</sprite>
+    <sprite>sprites\sprite29</sprite>
     <sprite>sprites\sprite5_dungeon_characters</sprite>
+    <sprite>sprites\spr_sword_swing</sprite>
+    <sprite>sprites\spr_sword_attack</sprite>
+    <sprite>sprites\spr_regi_jump</sprite>
+    <sprite>sprites\spr_regi_idle</sprite>
+    <sprite>sprites\spr_regi_walk</sprite>
+    <sprite>sprites\spr_player</sprite>
     <sprite>sprites\sprite3_DinoSprites - doux</sprite>
+    <sprite>sprites\spr_goblin</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_generate.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_tile</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_generator</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_hallway</object>
+    <object>objects\obj_room</object>
+    <object>objects\obj_enemy</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
